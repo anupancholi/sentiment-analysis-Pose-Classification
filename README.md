@@ -31,3 +31,7 @@ Both models are dynamically downloaded from **AWS S3**, run **fully locally**, a
 ---
 ## 🚀 Quick Start
 [Link to the website](https://poseandsenti.streamlit.app)
+
+
+
+## Created by Anurodh
