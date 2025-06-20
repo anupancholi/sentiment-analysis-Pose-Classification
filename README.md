@@ -31,7 +31,7 @@ Both models are dynamically downloaded from **AWS S3**, run **fully locally**, a
 
 ## 📷 Pose Classifier Interface
 
-<img src="/Users/anniii/Downloads/Screenshot 2025-06-20 at 17.40.41.png" alt="Pose Classifier Screenshot" width="600"/>
+<img src="Screenshot 2025-06-20 at 17.40.41.png" alt="Pose Classifier Screenshot" width="600"/>
 
 > Upload or capture an image, then click "Predict Pose" to classify standing, sitting, yoga, etc.
 
