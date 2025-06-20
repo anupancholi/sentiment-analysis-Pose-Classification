@@ -41,8 +41,10 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.markdown('<div class="title">Welcome to ML Model App</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">What would you like to do?</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">Welcome to ML Model App</div>',
+            unsafe_allow_html=True)
+st.markdown('<div class="subtitle">What would you like to do?</div>',
+            unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 with col1:
@@ -57,7 +59,7 @@ st.markdown("---")
 st.markdown(
     """
     <div class='footer'>
-    Made with ❤️ using Streamlit
+    Made with ❤️ by Anurodh
     </div>
     """,
     unsafe_allow_html=True,

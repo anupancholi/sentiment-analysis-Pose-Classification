@@ -190,3 +190,4 @@ train_dir
 
 1-streamlit_introduction.py
 *.png
+.DS_Store
