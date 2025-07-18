@@ -46,13 +46,16 @@ st.markdown('<div class="title">Welcome to ML Model App</div>',
 st.markdown('<div class="subtitle">What would you like to do?</div>',
             unsafe_allow_html=True)
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 with col1:
     if st.button("Sentiment Analysis", key="sentiment", help="Analyze sentiment of text input"):
         st.switch_page(str(Path("pages/sentiment_analysis.py")))
 with col2:
     if st.button("Pose Classification", key="pose", help="Classify human pose from image input"):
         st.switch_page(str(Path("pages/pose_classification.py")))
+with col3:
+    if st.button("Disaster Tweet Analyzer", key="disaster", help="Analyze disaster relevance of tweets"):
+        st.switch_page(str(Path("pages/disaster_analyzer.py")))
 
 st.markdown("---")
 
