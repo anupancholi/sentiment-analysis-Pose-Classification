@@ -5,8 +5,8 @@ from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassifica
 import boto3
 
 bucket_name = "mlops-sentianni"
-local_path = 'tinybert-disaster-tweet'
-s3_prefix = 'ml-models/tinybert-disaster-tweet/'
+local_path = 'tinybert-disaster-tweets'
+s3_prefix = 'ml-models/tinybert-disaster-tweets/'
 s3 = boto3.client('s3')
 
 
