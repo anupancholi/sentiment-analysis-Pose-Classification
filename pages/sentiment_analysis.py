@@ -116,7 +116,7 @@ if st.button("Predict Sentiment"):
 st.markdown(
     """
     <div class="footer">
-    Full Streamlit Code Repository: <a href="https://github.com/anupancholi/08-Deploy_ML_Model_at_Streamlit_Server" target="_blank">GitHub</a>
+    Full Streamlit Code Repository: <a href="https://github.com/anupancholi/sentiment-analysis-Pose-Classification" target="_blank">GitHub</a>
     </div>
     """,
     unsafe_allow_html=True,
